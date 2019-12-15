@@ -3,8 +3,13 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.testFunc = testFunc;
+exports.doubler = doubler;
+exports.halver = halver;
 
-function testFunc(a) {
+function doubler(a) {
   return 2 * a;
+}
+
+function halver(a) {
+  return a / 2;
 }
