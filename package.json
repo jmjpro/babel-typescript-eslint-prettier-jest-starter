@@ -44,7 +44,8 @@
   "lint-staged": {
     "src/*.{js,jsx,ts,tsx}": [
       "eslint",
-      "jest --bail --findRelatedTests"
+      "jest --bail --findRelatedTests",
+      "babel --out-dir build"
     ]
   }
 }
