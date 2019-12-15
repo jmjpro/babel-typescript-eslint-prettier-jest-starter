@@ -37,7 +37,7 @@
     "build": "babel src --out-dir build --extensions '.ts,.tsx,.js'"
   },
   "lint-staged": {
-    "./src/**/*.{j,t}s": [
+    "*": [
       "yarn lint",
       "npm test"
     ]
