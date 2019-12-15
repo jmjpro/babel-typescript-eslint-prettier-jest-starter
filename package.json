@@ -38,8 +38,8 @@
   },
   "lint-staged": {
     "*": [
-      "yarn lint",
-      "npm test"
+      "lint",
+      "test"
     ]
   }
 }
